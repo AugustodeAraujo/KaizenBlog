@@ -23,11 +23,11 @@ const NavBar = () => {
               <Link href="/unidades"><a className="nav-link">Unidades</a></Link>
               <Link href="/fornecedores"><a className="nav-link">Fornecedores</a></Link>
               <NavDropdown title="Catálogos" id="basic-nav-dropdown" style={{ color: '#fff' }}>
-                <NavDropdown.Item href="#action/3.1" >Elétrica</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Óleos</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Mecânica</NavDropdown.Item>
+                <NavDropdown.Item  >Elétrica</NavDropdown.Item>
+                <NavDropdown.Item >Óleos</NavDropdown.Item>
+                <NavDropdown.Item >Mecânica</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Fornecedores</NavDropdown.Item>
+                <NavDropdown.Item ><Link href="/catalogos">Catálogos</Link></NavDropdown.Item>
               </NavDropdown>           
             </Nav>
             <Link href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn ml-auto" style={{ borderRadius: "2px" }}>
