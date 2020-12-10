@@ -14,45 +14,50 @@ import Head from "next/head"
 
 const Home = ({ blog }) => {
 
-  const router = useRouter(); 
+  const router = useRouter();
 
   if (!router.isFallback && !blog?.slug) {
-    return <ErrorPage statusCode="404"/>
+    return <ErrorPage statusCode="404" />
   }
 
   if (router.isFallback) {
     console.log('Fallback loading')
     return (
-    <h1>Carregando...</h1>)
+      <h1>Carregando...</h1>)
   }
 
   moment.locale('pt-br');
 
   return (
     <>
-     <Head>
-      <title>Blog Kaizen | {blog.title}</title>
+      <Head>
+        <title>Blog Kaizen | {blog.title}</title>
         <meta name="description" content={blog.subtitle} />
+        <meta property="og:url" content="http://www.kaizenautopecas.com.br" key="ogurl" />
+        <meta property="og:image" content={blog.coverImage} key="ogimage" />
+        <meta property="og:site_name" content="Kaizen - A Casa da Autopeça" key="ogsitename" />
+        <meta property="og:title" content={blog.title} key="ogtitle" />
+        <meta property="og:description" content={blog.subtitle} key="ogdesc" />
       </Head>
       <Layout>
-        <BlogInner title={blog.title}/>
+        <BlogInner title={blog.title} />
 
         <Container className="blog-detail-page p-5">
           <Row>
-          <Col sm={2} />
+            <Col sm={2} />
             <Col sm={8}>
-          <PostHeader
-            title={blog.title}
-            subtitle={blog.subtitle}
-            image={urlFor(blog.coverImage).height(600).url()} />
-          <PostContent content={blog.content} className="my-2"/>
-          
-          <p className="blogtag">{blog.tag}</p>
-          <hr/>
-          <p className="card-date text-muted">Publicado em {moment(blog.date).format('LL')}</p>
-          <br/>
-          <br/>
-            </Col> 
+              <PostHeader
+                title={blog.title}
+                subtitle={blog.subtitle}
+                image={urlFor(blog.coverImage).height(600).url()} />
+              <PostContent content={blog.content} className="my-2" />
+
+              <p className="blogtag">{blog.tag}</p>
+              <hr />
+              <p className="card-date text-muted">Publicado em {moment(blog.date).format('LL')}</p>
+              <br />
+              <br />
+            </Col>
             <Col sm={2} />
           </Row>
         </Container>
@@ -76,7 +81,7 @@ export async function getStaticPaths() {
   const blogs = await getAllBlogs();
   const paths = blogs.map(b => ({ params: { slug: b.slug } }));
   return {
-    paths, 
+    paths,
     fallback: true
   }
 }
