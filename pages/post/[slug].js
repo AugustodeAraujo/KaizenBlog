@@ -10,6 +10,7 @@ import BlogInner from 'components/BlogInner'
 import moment from 'moment';
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
+import Head from "next/head"
 
 const Home = ({ blog }) => {
 
@@ -29,6 +30,10 @@ const Home = ({ blog }) => {
 
   return (
     <>
+     <Head>
+      <title>Blog Kaizen | {blog.title}</title>
+        <meta name="description" content={blog.subtitle} />
+      </Head>
       <Layout>
         <BlogInner title={blog.title}/>
 
@@ -70,7 +75,6 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const blogs = await getAllBlogs();
   const paths = blogs.map(b => ({ params: { slug: b.slug } }));
-  console.log(paths); 
   return {
     paths, 
     fallback: true
