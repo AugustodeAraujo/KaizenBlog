@@ -73,7 +73,8 @@ const Home = ({ blog }) => {
 export async function getStaticProps({ params }) {
   const blog = await getBlogBySlug(params.slug);
   return {
-    props: { blog }
+    props: { blog },
+    revalidate: 1
   }
 }
 
