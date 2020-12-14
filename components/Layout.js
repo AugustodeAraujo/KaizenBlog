@@ -2,7 +2,11 @@
 import Navbar from './Navbar';
 import Footer from 'components/Footer'
 
+
 export default function PageLayout({ children, className }) {
+
+ 
+
   return (
     <>
       <Navbar />
