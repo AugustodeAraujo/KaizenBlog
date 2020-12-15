@@ -11,14 +11,13 @@ const Hero = () => {
     return (
         <>
 
-
             <div className="jumbotron jumbotron-fluid hero has-bg-img text-center m-0 bg-info d-flex flex-column justify-content-center">
                 <div className="container">
                     <h1 className='titulo-ninja'>ORÇAMENTO<span className='subtitulo-ninja'> NINJA </span><span className='titulo-ninja'>EM 15 MINUTOS</span>  </h1>
-                    <h5 className="mt-2" style={{ color: 'white' }}>Todas as peças para o seu carro. Envie a lista de peças pelo whatsapp<br/> e entregamos o seu orçamento em 15 minutos.</h5>
-                    <Link href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn" style={{ borderRadius: "2px" }}>
+                    <h5 className="mt-2" style={{ color: 'white' }}>Todas as peças para o seu carro. Envie a lista de peças pelo whatsapp<br /> e entregamos o seu orçamento em 15 minutos.</h5>
+                    <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn" style={{ borderRadius: "2px" }}>
                         <button type="button" className="btn btn-outline-primary btn-lg mt-4"><AiOutlineWhatsApp className="m-1" /> SOLICITAR ORÇAMENTO</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
 
@@ -31,9 +30,9 @@ const Hero = () => {
                             de adquirir autopeça<br />
                             em Brasília
                             </h1>
-                            <Link href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn" style={{ borderRadius: "2px" }}>
+                            <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn" style={{ borderRadius: "2px" }}>
                                 <button type="button" className="btn btn-outline-light my-2"><AiOutlineWhatsApp className="m-1" /> SOLICITAR ORÇAMENTO</button>
-                            </Link>
+                            </a>
                         </div>
                         <div className="col-sm-6">
                             <div className="my-3 p-3 bg-white rounded box-shadow d-flex">
@@ -68,16 +67,16 @@ const Hero = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-8">
-                        <h1 className='subtitulo-ninja' style={{fontSize: '40px'}}>
-                            Sem burocracia
+                            <h1 className='subtitulo-ninja' style={{ fontSize: '40px' }}>
+                                Sem burocracia
                         </h1>
-                        <h3 style={{  fontWeight: "300", }}>
-                         Sem dor de cabeça, esqueça as montanhas de papel.<br />
-                         A melhor garantia do Distrito Federal. 
+                            <h3 style={{ fontWeight: "300", }}>
+                                Sem dor de cabeça, esqueça as montanhas de papel.<br />
+                         A melhor garantia do Distrito Federal.
                         </h3>
-                        <a className='link-ninja my-5' style={{textDecoration: 'none',}}>
-                            Sem complicações <IoMdArrowRoundForward/>
-                        </a>
+                            <a className='link-ninja my-5' style={{ textDecoration: 'none', }}>
+                                Sem complicações <IoMdArrowRoundForward />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +88,7 @@ const Hero = () => {
                         Vamos até você
                         </h1>
                     <h3 style={{ color: "#fff", fontWeight: "300", }}>
-                    Entregamos as peças para você, ou diretamente no seu mecânico.
+                        Entregamos as peças para você, ou diretamente no seu mecânico.
                         </h3>
                 </div>
             </div>

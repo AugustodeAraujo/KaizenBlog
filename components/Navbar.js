@@ -30,9 +30,9 @@ const NavBar = () => {
                 <NavDropdown.Item ><Link href="/catalogos">Catálogos</Link></NavDropdown.Item>
               </NavDropdown>           
             </Nav>
-            <Link href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn ml-auto" style={{ borderRadius: "2px" }}>
+            <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn ml-auto" style={{ borderRadius: "2px" }}>
                 <button type="button" className="btn btn-primary my-3"><AiOutlineWhatsApp className="m-1" /> SOLICITAR ORÇAMENTO</button>
-              </Link>
+              </a >
           </Navbar.Collapse>
         </div>
       </Navbar>
