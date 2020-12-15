@@ -22,24 +22,24 @@ const Fornecedores = () => {
                         <Col className="box mx-3">
                             <Row className=" d-flex text-center m-3">
                                 <Col>
-                                    <h1>Oi</h1>
+                                    
                                 </Col>
                                 <Col>
-                                    <h1>Oi</h1>
+                                   
                                 </Col>
                                 <Col>
-                                    <h1>Oi</h1>
+                                    
                                 </Col>
                             </Row>
                             <Row className=" d-flex text-center m-3">
                                 <Col>
-                                    <h1>Oi</h1>
+                                    
                                 </Col>
                                 <Col>
-                                    <h1>Oi</h1>
+                                    
                                 </Col>
                                 <Col>
-                                    <h1>Oi</h1>
+                                    
                                 </Col>
                             </Row>
                         </Col>

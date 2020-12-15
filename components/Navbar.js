@@ -23,7 +23,7 @@ const NavBar = () => {
               <Link href="/unidades"><a className="nav-link">Unidades</a></Link>
               <Link href="/fornecedores"><a className="nav-link">Fornecedores</a></Link>
               <NavDropdown title="Catálogos" id="basic-nav-dropdown" style={{ color: '#fff' }}>
-                <NavDropdown.Item  >Elétrica</NavDropdown.Item>
+                <NavDropdown.Item >Elétrica</NavDropdown.Item>
                 <NavDropdown.Item >Óleos</NavDropdown.Item>
                 <NavDropdown.Item >Mecânica</NavDropdown.Item>
                 <NavDropdown.Divider />

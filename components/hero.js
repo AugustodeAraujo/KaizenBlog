@@ -11,15 +11,38 @@ const Hero = () => {
     return (
         <>
 
-            <div className="jumbotron jumbotron-fluid hero has-bg-img text-center m-0 bg-info d-flex flex-column justify-content-center">
+            <div className="jumbotron jumbotron-fluid hero m-0 d-flex flex-column justify-content-center has-bg-img">
                 <div className="container">
-                    <h1 className='titulo-ninja'>ORÇAMENTO<span className='subtitulo-ninja'> NINJA </span><span className='titulo-ninja'>EM 15 MINUTOS</span>  </h1>
-                    <h5 className="mt-2" style={{ color: 'white' }}>Todas as peças para o seu carro. Envie a lista de peças pelo whatsapp<br /> e entregamos o seu orçamento em 15 minutos.</h5>
-                    <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn" style={{ borderRadius: "2px" }}>
-                        <button type="button" className="btn btn-outline-primary btn-lg mt-4"><AiOutlineWhatsApp className="m-1" /> SOLICITAR ORÇAMENTO</button>
-                    </a>
+                    <Row>
+                        <Col sm={7} className='my-3'>
+                            <h1 className='subtitulo-ninja'>
+                                ORÇAMENTO NINJA
+                        </h1>
+                            <h3 style={{fontWeight: '300', color: '#fff'}} id='sub'>
+                                Todas as peças para o seu carro.
+                                Envie a lista de peças e entregamos o seu orçamento em até <strong style={{color: '#00a5ac'}}>15 minutos</strong>.
+                        </h3>
+                        
+                            <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className='link-ninja my-5' style={{ textDecoration: 'none', }}>
+                                Solicitar Orçamento <AiOutlineWhatsApp />
+                            </a>
+
+                        </Col>
+
+                        <Col className='my-3'>
+                            <div className='box text-center' style={{borderRadius: '20px'}}>
+                            <h4>Entre em contato pelo Whatsapp</h4>
+                                <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn m-4" style={{ borderRadius: "2px", color: '#00a5ac' }}>
+                                    <AiOutlineWhatsApp className="display-2" /> 
+                                </a>
+                                <h4>Ou ligue para (61) 3041-5641</h4>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
             </div>
+
+
 
             <div className="jumbotron jumbotron-fluid  m-0 hero d-flex flex-column justify-content-center">
                 <div className="container">
