@@ -587,6 +587,13 @@ html, body {
   transition: 0.5s;
 }
 
+.myAlert-bottom{
+  position: fixed;
+  bottom: 5px;
+  left:2%;
+  width: 96%;
+}
+
 .wpp:hover {
   height: 52px;
   width: 52px;
