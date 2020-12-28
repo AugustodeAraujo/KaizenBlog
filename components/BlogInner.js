@@ -10,7 +10,7 @@ const BlogInner = ({title}) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-8">
-                            <h1 className='titulo-ninja' style={{ fontSize: '40px' }}>
+                            <h1 className='titulo-ninja' style={{ fontSize: '40px', lineHeight: "50px" }}>
                                 {title}
                         </h1>
                         </div>

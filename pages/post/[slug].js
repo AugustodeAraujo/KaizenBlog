@@ -1,4 +1,4 @@
-import { Col, Row, Container, } from 'react-bootstrap';
+import { Col, Row, Container, Button } from 'react-bootstrap';
 import Layout from 'components/Layout'
 import Wpp from 'components/whatsapp'
 import { getBlogBySlug, getAllBlogs } from 'lib/api'
@@ -10,7 +10,9 @@ import BlogInner from 'components/BlogInner'
 import moment from 'moment';
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
-import Head from "next/head"
+import Head from 'next/head'
+import Link from 'next/link'
+import { RiArrowGoBackLine } from 'react-icons/ri'
 
 const Home = ({ blog }) => {
 
@@ -57,6 +59,7 @@ const Home = ({ blog }) => {
               <p className="card-date text-muted">Publicado em {moment(blog.date).format('LL')}</p>
               <br />
               <br />
+              <Link href="/blog"><Button><RiArrowGoBackLine/> Voltar</Button></Link> 
             </Col>
             <Col sm={2} />
           </Row>

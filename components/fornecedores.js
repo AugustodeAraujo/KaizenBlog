@@ -22,7 +22,7 @@ const Fornecedores = () => {
                         <Col className="box mx-3">
                             <Row className=" d-flex text-center m-3">
                                 <Col>
-                                  Fornecedores  
+                                  
                                 </Col>
                                 <Col>
                                    

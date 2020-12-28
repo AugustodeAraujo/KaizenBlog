@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="col-6 col-md">
             <h5>Kaizen</h5>
             <ul className="list-unstyled text-small">
-              <li><a className="text-muted" href="#">Unidades</a></li>
+              <li><Link href="/unidades"><a className="text-muted" href="#">Unidades</a></Link> </li>
               <li><a className="text-muted" href="#">Perguntas Frequentes</a></li>
               <li><Link href="/bancodetalentos"><a className="text-muted" href="#">Trabalhe Conosco</a></Link></li>
               <li><a className="text-muted" href="#">Fornecedores</a></li>
