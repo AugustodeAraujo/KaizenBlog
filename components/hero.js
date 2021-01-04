@@ -35,7 +35,7 @@ const Hero = () => {
                                 <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn m-4" style={{ borderRadius: "2px", color: '#00a5ac' }}>
                                     <AiOutlineWhatsApp className="display-2" /> 
                                 </a>
-                                <h4>Ou ligue para (61) 3041-5641</h4>
+                                <h4>Ou ligue em uma de nossas <Link href="/unidades">Unidades</Link></h4>
                             </div>
                         </Col>
                     </Row>
