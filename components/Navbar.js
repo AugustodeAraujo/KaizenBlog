@@ -27,7 +27,7 @@ const NavBar = () => {
                 <NavDropdown.Item >Óleos</NavDropdown.Item>
                 <NavDropdown.Item >Mecânica</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item ><a href="https://drive.google.com/file/d/1s3f_HNw0pK2J5SNq-fayciRl-WzN4n3w/view" target='_blank'>Catálogo Completo</a></NavDropdown.Item>
+                <a href="https://drive.google.com/file/d/1s3f_HNw0pK2J5SNq-fayciRl-WzN4n3w/view" target='_blank' style={{marginLeft: "8px"}}>Catálogo Completo</a>
               </NavDropdown>           
             </Nav>
             <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn ml-auto" style={{ borderRadius: "2px" }}>
