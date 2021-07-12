@@ -22,6 +22,7 @@ const NavBar = () => {
               <Link href="/blog"><a className="nav-link">Blog</a></Link>
               <Link href="/unidades"><a className="nav-link">Unidades</a></Link>
               <Link href="/fornecedores"><a className="nav-link">Fornecedores</a></Link>
+              <Link href="/sac"><a className="nav-link">SAC</a></Link>
               <NavDropdown title="Catálogos" id="basic-nav-dropdown" style={{ color: '#fff' }}>
                 <NavDropdown.Item >Elétrica</NavDropdown.Item>
                 <NavDropdown.Item >Óleos</NavDropdown.Item>
