@@ -12,7 +12,7 @@ export default function GoogleMaps() {
         <Col>
           <div className="card">
             <Image
-              src="/asanorte.png"
+              src="/asanorte02.png"
               alt="Kaizen Asa Norte"
               width={500}
               height={500}
