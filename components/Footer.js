@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="col-6 col-md">
             <h5>Fale com a gente</h5>
             <ul className="list-unstyled text-small">
-              <li><a className="text-muted" href="#">(61) 3041-5641</a></li>
+              <li><a className="text-muted" href="#">(61) 3575-7650</a></li>
               <li><a className="text-muted" href="#">kaizen@kaizenautopecas.com.br</a></li>
               <li><a className="text-muted" href="#">Política de Trocas</a></li>
             </ul>
