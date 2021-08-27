@@ -23,7 +23,7 @@ const Hero = () => {
                                 Envie a lista de peças e entregamos o seu orçamento em até <strong style={{color: '#00a5ac'}}>15 minutos</strong>.
                         </h3>
                         
-                            <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className='link-ninja my-5' style={{ textDecoration: 'none', }}>
+                            <a href="https://api.whatsapp.com/send/?phone=556183660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className='link-ninja my-5' style={{ textDecoration: 'none', }}>
                                 Solicitar Orçamento <AiOutlineWhatsApp />
                             </a>
 
@@ -32,7 +32,7 @@ const Hero = () => {
                         <Col className='my-3'>
                             <div className='box text-center' style={{borderRadius: '20px'}}>
                             <h4>Entre em contato pelo Whatsapp</h4>
-                                <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn m-4" style={{ borderRadius: "2px", color: '#00a5ac' }}>
+                                <a href="https://api.whatsapp.com/send/?phone=556183660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank' className="btn m-4" style={{ borderRadius: "2px", color: '#00a5ac' }}>
                                     <AiOutlineWhatsApp className="display-2" /> 
                                 </a>
                                 <h4>Ou ligue em uma de nossas <Link href="/unidades">Unidades</Link></h4>
