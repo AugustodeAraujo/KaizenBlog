@@ -25,7 +25,7 @@ const Wpp = () => {
                             <Container className="d-flex justify-content-center">
 
                                 <AiOutlineWhatsApp style={{ fontSize: '40px', color: "#00a5ac" }} className="p-2" />
-                                <a href="https://api.whatsapp.com/send/?phone=5561983660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank'
+                                <a href="https://api.whatsapp.com/send/?phone=556183660828&text=Ol%C3%A1%2C+eu+gostaria+de+um+or%C3%A7amento.&app_absent=0" target='_blank'
                                     style={{
                                         margin: '0px',
                                         padding: '10px',
